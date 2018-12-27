@@ -1,0 +1,11 @@
+{
+  "name": "xtep",
+  "version": "1.0.0",
+  "description": "\"特步\"",
+  "main": "require.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donve",
+  "license": "ISC"
+}
