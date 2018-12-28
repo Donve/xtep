@@ -1,0 +1,5 @@
+# 忽略gulp插件
+node_modules/
+
+#忽略项目说明.pages文件
+xuqiu.pages

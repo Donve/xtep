@@ -1,6 +1,1 @@
-.top {
-  width: 1300px;
-  height: 32px;
-  line-height: center;
-  background: green;
-  border: 1px solid red; }
+@charset "UTF-8";*{margin:0;padding:0}a{text-decoration:none}li{list-style:none}body,html{width:100%}.left{float:left}.right{float:right}body{font:16px 微软雅黑}b,h1,h2,h3,h4,h5,h6,strong{font-weight:400}em,i{font-style:normal}.top{margin:0 auto;width:1200px;height:32px;line-height:32px;background:#fafafa}.top a{text-align:center;color:#000}.top a:hover{color:#b22222}.top .nav_R a{margin-left:10px}.top .nav_R span{color:red}.logo{width:1200px;height:100px;line-height:100px;background:#e6e6fa;margin:0 auto}.log pic{margin-left:10px}.nav{width:1200px;height:40px;background:#000;margin:0 auto}.nav ul{display:block;float:left}.nav ulli{width:30px;height:40px;float:left}

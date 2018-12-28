@@ -1,10 +1,51 @@
-
+@import 'public';
 //top样式
 .top{
-	width:1300px;
+	margin:0 auto;
+	width:1200px;
 	height:32px;
-	line-height:center;
-	//background:#fafafa;
-	background:green;
-	border:1px solid red;
+	line-height:32px;
+	background:#fafafa;
+	
+}
+.top a{
+	text-align:center;
+	color:#000;
+	&:hover{
+		color:firebrick;
+	}
+}
+.top .nav_R a{
+	margin-left:10px;
+}
+.top .nav_R span{
+	color:red;
+}
+.logo{
+	width:1200px;
+	height:100px;
+	line-height:100px;
+	background:lavender;
+	margin:0 auto;
+}
+.log pic{
+	
+	margin-left: 10px;;
+}
+
+//导航
+.nav{
+	width:1200px;
+	height:40px;
+	background:#000;
+	margin:0 auto;
+}
+.nav ul{
+	display:block;
+	float:left;
+	&li{
+		width:30px;
+		height:40px;
+		float:left;
+	}
 }
