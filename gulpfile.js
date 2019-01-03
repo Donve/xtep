@@ -21,13 +21,13 @@ gulp.task('sass',function(){
 	.pipe(gulp.dest('./dist/css'))
 })
 gulp.task('imagemin',function(){
-	gulp.src('./src/img/*.*')
+	gulp.src('./src/img/*')
 	.pipe(imagemin())
 	.pipe(gulp.dest('./dist/img'))
 })
 gulp.task('default',function(){
 	gulp.watch('./src/js/*.js',['js'])
 	gulp.watch('./src/sass/*.scss',['sass'])
-	gulp.watch('./src/img/*.*',['img'])
+	gulp.watch('./src/img/*',['img'])
 	
 })

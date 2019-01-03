@@ -1,0 +1,63 @@
+@import 'public';
+
+.banner_zc{
+	width:100%;
+	height:500px;
+	position:relative;
+	.banner_img{
+		width:1920px;
+		margin:0 auto;
+		
+	}
+	.login{
+		width:300px;
+		height:300px;
+		background:#fff;
+		position:absolute;
+		left:1000px;
+		top:50px;
+		text-align: center;
+		.dl_top{
+			margin-top:28px;
+			height:30px;
+			p{
+				color:#c6c3c3;
+				font-size:16px;
+				font-weight: bold;
+				margin-left:20px;
+			}
+			span a{
+				color:#fe805e;
+				font-size:12px;
+				margin-right:20px;
+				
+			}
+			a:hover{
+				color:#c2121d;
+			}
+		}
+		form{
+			input{
+				width:250px;
+				height:30px;
+			}
+			#btn{
+				width:240px;
+				background:#c33932;
+				height:33px;
+				color:#fff;
+				//border-radius: 50%;
+			}
+			.dl_wj{
+				color:#666666;
+				font-size:12px;
+				margin-right:20px;
+				:hover{
+					color:#C2121D;
+					border-bottom:1px solid #C2121D;
+				}
+			}
+			
+		}
+	}
+}

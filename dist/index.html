@@ -7,47 +7,403 @@
 		<link rel="stylesheet" href="../src/font/iconfont.css">
 	</head>
 	<body>
-		<div id="" class="top">
-			<div class = "left">
-				<span>你好，欢迎光临特步官方商城！</span>  &nbsp;&nbsp;
-				<a href="">注册</a>&nbsp;
-				<a href="">登录</a>
-			</div>
-			<div id="" class="nav_R right">
-			<p >
-			<a href="javascript:;">我的特步</a>
-			<a href="javascript:;">品牌官网</a>
-			<a href="javascript:;" class = "iconfont"><span>&#xe622;</span>手机特步<span>&#xe62d;</span></a>
-			<a href="javascript:;" class = "iconfont"><span>&#xe641;</span>购物车<span>(0)</span>件</a>
-			</p>	
+		<!-------------------------------------------->
+		<div class="topWarp">
+			<div class="top">
+				<ul class="top_nav left" id="top">
+					<li><p>你好，欢迎光临特步官方商城！</p></li>
+					<li><a href="./html/register.html">注册</a></li>
+					<li><a href="./html/login.html">登录</a></li>
+				</ul>
+				<ul class="top_nav right">
+					<li><a href="javascript:;">我的特步</a></li>
+					<li><a href="#">品牌官网</a></li>
+					<li><a href="javascript:;" class = "iconfont"><span>&#xe622;</span>手机特步<span>&#xe62d;</span></a></li>
+					<li><a href="javascript:;" class = "iconfont"><span>&#xe641;</span>购物车<span>(0)</span>件</a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="logo">
-				<p>
-				<img src="../src/img/logo.png" alt="">
-				<input type="text" name="" id="" value="请输入..." />
-				<input type="button" name="" id="" value="搜索" />
-				</p>
+		<!-- logo + search + pic-->
+		<div class="headerWarp">
+		<div class="header">
+			<h1 class="logo left"><a href="http://www.xtep.com.cn/"><img src="../src/img/logo.png" alt=""></a></h1>
+			<div id="" class="search_main left">
+					<input type="text" class="inbox">
+					<input type="button" class="insub" value="搜索">
+			<ul class="sraech_B left">
+					<li><a href="#">热卖搜索：</a></li>
+					<li><a href="#">跑鞋</a></li>
+					<li><a href="#">板鞋</a></li>
+					<li><a href="#">21代风火鞋</a></li>
+					<li><a href="#">动力巢X</a></li>
+					<li><a href="#">明星同款</a></li>
+				</ul>
+			</div>
+			<div id="" class="pic right">
+				<a href="#"><img src="./img/sj.png" alt="">
+			<!--<img src="../src/img/huiyuan.jpg" alt="">-->
+			</a>
+			</div>
 		</div>
-		<div class="nav">
+		<!--  导航  -->
+		<div class="navWarp" id="nav">
+			<div class="nav">
+				<ul class="nav_main left">
+					<li class="nav_two">全部商品分类
+					<div class="menu">
+						
+						<ul>
+							<li>
+								<p><a href="">男鞋</a></p>
+								<a href="">跑步鞋</a>&nbsp;&nbsp;
+								<a href="">综训鞋</a>&nbsp;&nbsp;
+								<a href="">休闲鞋</a>&nbsp;&nbsp;
+								<a href="">板鞋</a>&nbsp;&nbsp;
+								<a href="">篮球鞋</a>&nbsp;&nbsp;
+								<a href="">足球鞋</a>&nbsp;&nbsp;
+								<a href="">棉鞋</a>
+							</li>
+							<li>
+								<p><a href="">女鞋</a></p>
+								<a href="">跑步鞋</a>&nbsp;&nbsp;
+								<a href="">综训鞋</a>&nbsp;&nbsp;
+								<a href="">休闲鞋</a>&nbsp;&nbsp;
+								<a href="">板鞋</a>&nbsp;&nbsp;
+								<a href="">棉鞋</a>
+							</li>
+							<li>
+								<p><a href="">男装</a></p>
+								<a href="">针织衫/卫衣/长T</a>&nbsp;&nbsp;
+								<a href="">长裤</a>&nbsp;&nbsp;
+								<a href="">风衣夹克</a>&nbsp;&nbsp;
+								<a href="">羽绒服</a>&nbsp;&nbsp;
+								<a href="">运动套装</a>&nbsp;&nbsp;
+								<a href="">运动T恤</a>&nbsp;&nbsp;
+								<a href="">休闲T恤</a>&nbsp;&nbsp;
+								<a href="">短裤</a>&nbsp;&nbsp;
+								<a href="">棉服</a>&nbsp;&nbsp;
+								<a href="">马甲</a>&nbsp;&nbsp;
+								<a href="">紧身裤</a>
+							</li>
+							<li>
+								<p><a href="">女装</a></p>
+								<a href="">针织衫/卫衣/长T</a>&nbsp;&nbsp;
+								<a href="">长裤</a>&nbsp;&nbsp;
+								<a href="">风衣夹克</a>&nbsp;&nbsp;
+								<a href="">羽绒服/马甲</a>&nbsp;&nbsp;
+								<a href="">运动套装</a>&nbsp;&nbsp;
+								<a href="">运动T恤</a>&nbsp;&nbsp;
+								<a href="">休闲T恤</a>&nbsp;&nbsp;
+								<a href="">短裤</a>&nbsp;&nbsp;
+								<a href="">棉服</a>&nbsp;&nbsp;
+								<a href="">运动胸衣</a>
+							</li>
+							<li>
+								<p><a href="">童鞋</a></p>
+								<a href="">跑步鞋</a>&nbsp;&nbsp;
+								<a href="">休闲鞋</a>&nbsp;&nbsp;
+								<a href="">板鞋</a>&nbsp;&nbsp;
+								<a href="">健康鞋</a>&nbsp;&nbsp;
+								<a href="">棉鞋</a>
+							</li>
+							<li>
+								<p><a href="">童装</a></p>
+								<a href="">套装</a>&nbsp;&nbsp;
+								<a href="">羽绒服棉服</a>&nbsp;&nbsp;
+								<a href="">外套/夹克</a>&nbsp;&nbsp;
+							</li>
+						</ul>
+						</div>
+					</li>
+					<li class="nav_1"><a href="#">首页</a></li>
+					<li class="nav_1"><a href="./html/list.html">跑步</a></li>
+					<li class="nav_1"><a href="#">男子</a></li>
+					<li class="nav_1"><a href="#">女子</a></li>
+					<li class="nav_1"><a href="#">儿童</a></li>
+					<li class="nav_1"><a href="#">配件</a></li>
+					<li class="nav_1"><a href="#">马拉松</a></li>
+					<li class="nav_1"><a href="#"><i>团购定制</i></a></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+	<div class="clear">
+	</div>
+	<!----------------------------------------->	
+	
+		<!--banner-->
+		<div class="bannerWarp">
+			<div class="banner" id="lunbo">
+				<img src="./img/banner1.jpg" alt="banner">
+				<img src="./img/banner2.jpg" alt="banner">
+				<img src="./img/banner3.jpg" alt="banner">
+				<img src="./img/banner4.jpg" alt="banner">
 			<ul>
-				<li>全部商品分类
-					<ul>
-						<!--<li></li>-->
-					</ul>
-				</li>
-				<li>首页</li>
-				<li>跑步</li>
-				<li>男子</li>
-				<li>女子</li>
-				<li>儿童</li>
-				<li>配件</li>
-				<li>马拉松</li>
-				<li>团购定制</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ul>
 		</div>
-		<script src ="../src/js/jquery-1.11.3.js"></script>
-		<script src ="../src/js/jquery.cookie.js"></script>
-		<script src ="../src/js/public.js"></script>
+		</div>
+		<!--视频-->
+		<div class="video">
+			<video src="./img/xtepMv.mp4" type="video/mp4"></video>
+		</div>
+		<!--图文-->
+		<div class="pic_header">
+			<div id="" class="pic left">
+			<img src="./img/1.jpg" >
+			</div>
+			<div id="" class="pic right">
+				<img src="./img/2.jpg" alt="">
+			</div>
+		</div>
+		<!---图文2-->
+		<div class="pic_2">
+			<div class="left"  id="">
+				<img src="./img/3.jpg" alt="">
+			</div>
+			<div class="pic_z left">
+				<img src="./img/4.jpg" alt="">
+			</div>
+			<div class="right" id="">
+				<img src="./img/5.jpg" alt="">
+			</div>
+		</div>
+		<!--科技-->
+		<div class="keji">
+			<a href="#"><img src="./img/kj_01.jpg" alt=""></a>
+			<a href="#"><img src="./img/kj_02.jpg" alt=""></a>
+			<a href="#"><img src="./img/kj_04.jpg" alt=""></a>
+			<a href="#"><img src="./img/kj_05.jpg" alt=""></a>
+			<a href="#"><img src="./img/kj_06.jpg" alt=""></a>
+			<a href="#"><img class="keji_last" src="./img/kj_07.jpg" alt=""></a>
+		</div>
+		<!--1F-->
+		<div id="" class="f1">
+				<div class="f1_b1 left">1F</div>
+				<h3 class="left">运动表现</h3>
+			<div class="f1_b2 right">
+				<p><a href="#">男款</a>&nbsp;&nbsp;
+				<a href="#">女款</a></p>
+			</div>
+		</div>
+		<div class="f1_c">
+			<div id="" class="f1_c1 left">
+				<div class="f1_c1_1"><a href="#">运动鞋&nbsp;&nbsp;</a>&nbsp;&nbsp;<a href="#">运动服</a></div>
+				<div align="center" class="f1_c1_2"><img src="./img/130-130-1.jpg" alt=""></div>
+				<div class="f1_c1_3">
+					<ul>
+						<li><a href="#">男跑步</a></li>
+						<li><a href="#">女跑步</a></li>
+						<li><a href="#">男综训</a></li>
+						<li><a href="#">女综训</a></li>
+						<li><a href="#">男户外</a></li>
+						<li><a href="#">女户外</a></li>
+						<li><a href="#">足球区</a></li>
+						<li><a href="#">配件区</a></li>
+						<li><a href="#">篮球区</a></li>
+						<li><a href="#">明星区</a></li>
+					</ul>
+				</div>
+				<div class="f1_c1_4"><img src="./img/160-150-1.jpg" alt=""></div>
+			</div>
+			<div id="" class="f1_c2 left">
+				<img src="./img/1(2).jpg" alt="">
+			</div>
+			<div id="" class="f1_c3 right">
+				<ul>
+					<li><a href=""><img src="img/170-170-1.jpg" alt=""><p>BUBBLE FORM 综训鞋</p></a></li>
+					<li><a href=""><img src="img/170-170-2.jpg" alt=""><p>全掌气垫跑鞋</p></a></li>
+					<li class="f1_c3_3"><a href=""><img src="img/240-240.jpg" alt=""><p>时尚休闲T恤</p></a></li>
+					<li><a href=""><img src="img/170-170-3.jpg" alt=""><p>减震气垫跑鞋</p></a></li>
+					<li><a href=""><img src="img/170-170-4.jpg" alt=""><p>减震旋跑鞋</p></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--2F-->
+		<div id="" class="f2">
+				<div class="f2_b1 left">2F</div>
+				<h3 class="left">运动生活</h3>
+			<div class="f2_b2 right">
+				<p><a href="#">男款</a>&nbsp;&nbsp;
+				<a href="#">女款</a></p>
+			</div>
+		</div>
+		<div class="f2_c">
+			<div id="" class="f2_c1 left">
+				<div class="f2_c1_1"><a href="#">休闲鞋&nbsp;&nbsp;</a>&nbsp;&nbsp;<a href="#">休闲服</a></div>
+				<div align="center" class="f2_c1_2"><img src="./img/130-130-2.jpg" alt=""></div>
+				<div class="f2_c1_3">
+					<ul>
+						<li><a href="#">男休闲</a></li>
+						<li><a href="#">女休闲</a></li>
+						<li><a href="#">男板鞋</a></li>
+						<li><a href="#">女板鞋</a></li>
+						<li><a href="#">小白鞋</a></li>
+						<li><a href="#">π系列</a></li>
+						<li><a href="#">都市系列</a></li>
+						<li><a href="#">校园系列</a></li>
+					</ul>
+				</div>
+				<div class="f2_c1_4"><img src="./img/160-150-2.jpg" alt=""></div>
+			</div>
+			<div id="" class="f2_c2 left">
+				<img src="./img/1(4).jpg" alt="">
+			</div>
+			<div id="" class="f2_c3 right">
+				<ul>
+					<li><a href=""><img src="img/170-170-1(3).jpg" alt=""><p>复古老鞋</p></a></li>
+					<li><a href=""><img src="img/170-170-2(3).jpg" alt=""><p>简约百搭板鞋</p></a></li>
+					<li class="f2_c3_3"><a href=""><img src="img/240-240-1.jpg" alt=""><p>运动针织装</p></a></li>
+					<li class="f2_c3_3"><a href=""><img src="img/240-240-2.jpg" alt=""><p>时尚潮流卫衣</p></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--3F-->
+		<div id="" class="f3">
+				<div class="f3_b1 left">3F</div>
+				<h3 class="left">运动生活</h3>
+			<div class="f3_b2 right">
+				<p><a href="#">男款</a>&nbsp;&nbsp;
+				<a href="#">女款</a></p>
+			</div>
+		</div>
+		<div class="f3_c">
+			<div id="" class="f3_c1 left">
+				<div class="f3_c1_1"><a href="#">鞋类区&nbsp;&nbsp;</a>&nbsp;&nbsp;<a href="#">服装区</a></div>
+				<div align="center" class="f3_c1_2"><img src="./img/130-130.jpg" alt=""></div>
+				<div class="f3_c1_3">
+					<ul>
+						<li><a href="#">跑步鞋</a></li>
+						<li><a href="#">休闲鞋</a></li>
+						<li><a href="#">板鞋</a></li>
+						<li><a href="#">凉鞋</a></li>
+						<li><a href="#">健康鞋</a></li>
+						<li><a href="#">上衣</a></li>
+						<li><a href="#">长裤</a></li>
+					</ul>
+				</div>
+				<div class="f3_c1_4"><img src="./img/160-150-3.jpg" alt=""></div>
+			</div>
+			<div id="" class="f3_c2 left">
+				<img src="./img/1(6).jpg" alt="">
+			</div>
+			<div id="" class="f3_c3 right">
+				<ul>
+					<li><a href=""><img src="img/c2.jpg" alt=""><p>全掌气垫跑步鞋</p></a></li>
+					<li><a href=""><img src="img/c3.jpg" alt=""><p>轻便透气运动鞋</p></a></li>
+					<li class="f3_c3_3"><a href=""><img src="img/240-240-1(3).jpg" alt=""><p>休闲秋季风衣</p></a></li>
+					<li><a href=""><img src="img/c4.jpg" alt=""><p>网面舒适 休闲鞋</p></a></li>
+					<li><a href=""><img src="img/170-170-1(5).jpg" alt=""><p>舒适运动鞋</p></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--4F-->
+		<div id="" class="f4">
+				<div class="f4_b1 left">4F</div>
+				<h3 class="left">运动生活</h3>
+			<div class="f4_b2 right">
+				<p><a href="#">男款</a>&nbsp;&nbsp;
+				<a href="#">女款</a></p>
+			</div>
+		</div>
+		<div class="f4_c">
+			<ul>
+				<li><a href="#"><img src="img/268-310-1.jpg" alt=""><br/><span>复刻一代风火鞋</span></a></li>
+				<li><a href="#"><img src="img/268-310-2.jpg" alt=""><br/><span>风火鞋21代</span></a></li>
+				<li><a href="#"><img src="img/268-310-3.jpg" alt=""><br/><span>减震旋跑鞋</span></a></li>
+				<li><a href="#"><img src="img/268-310-4.jpg" alt=""><br/><span>动力巢X跑鞋</span></a></li>
+				<li><a href="#"><img src="img/268-310-5.jpg" alt=""><br/><span>情侣小白鞋</span></a></li>
+				<li><a href="#"><img src="img/268-310-6.jpg" alt=""><br/><span>男子加绒棉鞋</span></a></li>
+				<li><a href="#"><img src="img/268-310-7.jpg" alt=""><br/><span>男子老爹鞋</span></a></li>
+				<li><a href="#"><img src="img/268-310-8.jpg" alt=""><br/><span>女子老爹鞋</span></a></li>
+				<li><a href="#"><img src="img/268-310-9.jpg" alt=""><br/><span>男子羽绒服</span></a></li>
+				<li><a href="#"><img src="img/268-310-10.jpg" alt=""><br/><span>女子羽绒服</span></a></li>
+				<li><a href="#"><img src="img/268-310-11.jpg" alt=""><br/><span>男子棉服</span></a></li>
+				<li><a href="#"><img src="img/268-310-12.jpg" alt=""><br/><span>女子棉服</span></a></li>
+				<li><a href="#"><img src="img/268-310-13.jpg" alt=""><br/><span>男子针织裤</span></a></li>
+				<li><a href="#"><img src="img/268-310-14.jpg" alt=""><br/><span>女子针织裤</span></a></li>
+				<li><a href="#"><img src="img/268-310-15.jpg" alt=""><br/><span>男子针织裤</span></a></li>
+				<li><a href="#"><img src="img/268-310-16.jpg" alt=""><br/><span>女子针织裤</span></a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<!----------------------------------->
+		<!--底部-->
+		<!--合作-->
+		<div class="foot_topWarp">
+		<div class="footer_top">
+			<div class="footer_L left">
+				<ul>
+					<h3>关于我们</h3>	
+					<li><a href="#">公司简介</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				
+				<ul>
+					<h3>购物指南</h3>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">用户注册</a></li>
+					<li><a href="#">购物流程</a></li>
+				</ul>
+				
+				<ul>
+					<h3>售后服务</h3>
+					<li><a href="#">配送方式</a></li>
+					<li><a href="#">防伪查询</a></li>
+					<li><a href="#">发票制度</a></li>
+				</ul>
+			</div>
+			<div class="footer_R right">
+				<p>400-008-7666</p>
+				<p>周一至周日 8：30-21：30</p>
+				<input type="button" class="iconfont" value="&#xe600;在线客服">
+				<p>周一至周日9：00-23：00</p>
+			</div>
+		</div>
+		</div>
+		<div class="clear"></div>
+		<!--服务-->
+		<div  class="footer_xWarp" id="">
+			<div class="foot_x"><img src="img/x-footer.jpg" alt=""></div>
+		</div>
+		<div class="serve">
+			<div class="serve_t">
+				<p>
+					<a href="">关于特步</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="">帮助中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="">友情联接</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="">联系我们</a>
+				</p>
+				<p>特步跑鞋 Copyright 2011 xtep.com 特步运动服 All Rights Reserved 特步官方旗舰店 ICP：闽ICP备05021253号-1 特步官网专卖店</p>
+				<p><a href="#"><img src="img/1234.png" alt="">闵公网安备 35020302001628号</a></p>
+			</div>
+		<hr/>
+			<div class="pay">
+					<a href="#"><img src="img/onlinepay.jpg" alt=""></a>
+					<a href="#"><img src="img/goodwebsite.jpg" alt=""></a>
+					<a href="#"><img src="img/salf.jpg" alt=""></a>
+					<a href="#"><img src="img/goodwebsite.jpg" alt=""></a>
+					<a href="#"><img src="img/brand_bottom_large.jpg" alt=""></a>
+			</div>
+		</div>
+		<!----------------------------------->
+		<!--侧导航-->
+		<div class="nav_c">
+			<ul>
+				<li><a href="#"><img src="img/1x.png" alt=""></a></li>
+				<li class="nav_c1 iconfont"><a href="#">&#xf003f; 购 物 车<br/><span> 0 </span></a></li>
+				<li class="nav_c1 iconfont"><a href="#">&#xe671; 联 系 客 服 </a></li>
+				<li class="nav_c1 iconfont"><a href="#">&#xe60c;</a></li>
+				<li class="nav_c1 iconfont"><a href="#top"> &#xe62a; TOP</a></li>
+			</ul>
+			
+		</div>
+		<script src ="js/jquery-1.11.3.js"></script>
+		<script src ="js/jquery.cookie.js"></script>
+		<script src="js/public.js"></script>
+		<script src="js/index.min.js"></script>
 	</body>
 </html>
