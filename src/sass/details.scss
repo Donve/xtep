@@ -1,0 +1,90 @@
+@import 'public';
+
+.list{
+	width:1200px;
+	height:60px;
+	margin:0 auto;
+	line-height: 60px;
+	a:hover{
+		color:#c50000;
+	}
+}
+.detWarp{
+	width:1200px;
+	margin:0 auto;
+	background:#fff;
+	.det_L{
+		width:530px;
+		height:620px;
+		background:#fff;
+		.det_box{
+			width:490px;
+			height:420px;
+			margin:20px;
+			background:#fff;
+			#box{
+				width:400px;
+				height:415px;
+				border:1px solid  #dfdfdf;
+				position:relative;
+				#small {
+					width:400px;
+					height:415px;
+					position:absolute;
+					img{
+						width:400px;
+						height:415px;
+					}
+					#mask{
+						width:183px;
+						height:189px;
+						border:1px solid #dfdfdf;
+						background:gray;
+						opacity:.1;
+						left:0;
+						top:0;
+						display:none;
+						cursor:move;
+						position:absolute;
+						left:0;
+						top:0;
+					}
+				}	
+				#big{
+					width:367px;
+					height:367px;
+					border:1px solid #dfdfdf;
+					position:absolute;
+					left:530px;
+					top:0;
+					overflow:hidden;
+					display: none;
+					img{
+						position: absolute;
+						left:200px;
+						top:200px;
+					}
+				}
+			}
+			.box_R{
+				width:70px;
+				height:400px;
+				li{
+					width:66px;
+					height:66px;
+					border:2px solid #dfdfdf;
+					margin-top:10px;
+					img{
+						width:66px;
+						height:66px;
+					}
+				}
+			}
+		}
+	}
+	.det_R{
+		width:660px;
+		height:620px;
+		background:#fff;
+	}
+}

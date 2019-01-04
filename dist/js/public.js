@@ -107,6 +107,8 @@ function lunbo2($xxk,t){
 }
 
 
+
+
 //封装函数，显示购物车里面的内容
 function showcart(){
 	var procount =0;
